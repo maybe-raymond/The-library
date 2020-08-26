@@ -3,21 +3,47 @@
   <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
+  <div class="first">
+  <h1>The Library</h1>
+</div>
+  <div class="main-page">
+    <div class="main">
+    <div class="cont">
+    <div class="card"></div>
+  </div>
+  <div class="sidbar">
   <form>
-    <label>author
-      <input id="author"></input>
-    </label>
-    <label>  title
-      <input id="title"></input>
-    </label>
-    <label>  summary
-      <input id="sum" type="textarea"></input>
-    </label>
-    <label>number_of_pages
-      <input id="numbers"></input>
-    </label>
+    <legend> Add a book you liked
+    <div>
+    <label for="author">author</label>
+    <input id="author"></input>
+  </div>
+  <div>
+    <label for="title">title</label>
+    <input id="title"></input>
+  </div>
+  <div>
+    <label for="summary">summary</label>
+    <textarea id="sum" type="textarea"></textarea>
+  </div>
+  <div>
+    <label for="number_of_pages">pages</label>
+    <input id="numbers"></input>
+  </div>
     <button id="sub" type="button" onclick="getValues()">Enter</button>
+  </legend>
   </form>
+  <div>
+  <a onclick="show()">Would you like to add a book</a>
+</div>
+</div>
 <body>
 <script src="library.js"></script>
+<script>
+  function show(){
+    let f = document.querySelector("form");
+    f.style.display="block"
+  }
+
+</script>
 </html>

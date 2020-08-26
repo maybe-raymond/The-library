@@ -1,0 +1,75 @@
+body{
+  background-color: gold;
+  font-family: "ChunkFiveRegular";
+}
+.feature{
+  width:650px;
+  height:300px;
+  border:solid;
+  justify-content:center;
+  align-items:center;
+}
+.first{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:0px;
+}
+.main-page{
+  margin:0px
+}
+.fcard{
+  border:solid;
+  width: 505px;
+  height:100px
+}
+.main{
+  display: flex;
+  align-items: flex-start;
+  margin-top:0px;
+}
+
+form{
+  display:none;
+  order:1;
+  width: 150px;
+}
+.cont{
+  width:80%;
+  height: 800px;
+  display:flex;
+  order:0;
+  flex-wrap: wrap;
+  border-top:5px solid black
+}
+.card{
+  height: 300px;
+  width: 250px;
+  background: black;
+  color:white;
+  border-radius:10px;
+}
+div{
+  margin:15px
+}
+.sidbar{
+  border:5px solid black;
+
+}
+.name,.title, .summary, .number{
+  margin:40px;
+}
+.title{
+  font-size:20px;
+  border-bottom:1px solid;
+  padding-bottom:10px;
+  margin-bottom:10px
+}
+.name{
+  margin-top:0px;
+
+}
+h1{
+  margin-bottom:0px;
+  font-size:45px;
+}
